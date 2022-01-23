@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
+
+@CrossOrigin(origins = "https://eventsmanagementsystem.herokuapp.com")
 @RestController
 @RequestMapping(path ="api/ticket")
 public class TicketController {
